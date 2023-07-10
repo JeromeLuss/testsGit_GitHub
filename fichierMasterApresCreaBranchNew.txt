@@ -18,3 +18,5 @@ Une fois sur new avec [git checkout new], on observe l'absence du fichier,
  
  Ici je rajoute cette ligne pour voir si le git push va marcher sans précision (alors que j'avais fait le -u 
  sur la branche main).
+  => cela ne marchera pas. Le lien étant bien de main à origin/main. 
+  La question est: si je fais un -u sur new, est-ce que ça enlève celui de main??
