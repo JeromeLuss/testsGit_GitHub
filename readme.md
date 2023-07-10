@@ -29,3 +29,10 @@ La première permet de déclarer un dépot distant s'appelant "origin" et pointa
 La deuxième permet de renommer la branche actuelle en "main". Il faut le faire quand on est sur la branche master. 
 La troisième va pousser le contenu de main local vers main distant. L'option -u permet de rendre cette liaison 
    répétable au prochain push sans la préciser. 
+   
+Une fois le push fait, on refresh gitHub et tout appraît clairement sur la branche main. 
+On va faire pareil avec la branche new:
+ se remettre sur new [git checkout new]
+ faire [git push origin new]
+ va créer la branche new sur gitHub et y pousser le contenu de new local. 
+ 
