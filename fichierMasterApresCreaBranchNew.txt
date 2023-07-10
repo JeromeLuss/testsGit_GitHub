@@ -1,0 +1,6 @@
+Ce fichier est créé après la création de la branch new. 
+Il sera indexé et commité sur master pour tester la mise à jour lorsqu'on checkout d'une branche à l'autre. 
+Ensuite il sera mergé dans l'une ou l'autre branche. 
+
+Ensuite on add et on commit et on passe sur la branche new en gardant l'explorer et l'éditeur ouverts. 
+On observe que le fichier disparaît. 
