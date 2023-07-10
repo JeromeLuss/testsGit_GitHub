@@ -15,3 +15,6 @@ Une fois sur new avec [git checkout new], on observe l'absence du fichier,
  git commit -am "mise à jour branche new"
  l'option -am permet de faire le add et le commit à la volée. (attention ne marche pas avec un fichier
  que l'on viendrait de créer. Seulement avec des fichiers qui ont déjà été indexés ou mergés). 
+ 
+ Ici je rajoute cette ligne pour voir si le git push va marcher sans précision (alors que j'avais fait le -u 
+ sur la branche main).
