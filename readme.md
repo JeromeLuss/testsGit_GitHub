@@ -4,4 +4,5 @@ Suivi de [git add .] puis git [commit -m "premier commit, premier fichier"]
 Première modification pour le second commit. 
 Suivi de [git add .] puis git [commit -m "deuxieme commit, premier fichier modifie"]
 
-ceci engendrera plus tard un conflit. Je modifie en local cette ligne
+ceci engendrera plus tard un conflit. Je modifie en local cette ligne. 
+Puis je fais git pull
