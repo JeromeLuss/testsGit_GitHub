@@ -1,6 +1,17 @@
-Ce fichier est créé après la création de la branch new. 
+Ce fichier est créé après la création de la branch new et qu'on soit repassé sur la branche master. 
+
 Il sera indexé et commité sur master pour tester la mise à jour lorsqu'on checkout d'une branche à l'autre. 
 Ensuite il sera mergé dans l'une ou l'autre branche. 
 
 Ensuite on add et on commit et on passe sur la branche new en gardant l'explorer et l'éditeur ouverts. 
 On observe que le fichier disparaît. 
+
+Une fois sur new avec [git checkout new], on observe l'absence du fichier,
+ on fait un test de merge. [git merche master] et le fichier apparaît. 
+ 
+ On a donc un fichier en plus et un readme + complet sur new. 
+ 
+ On va tester cette commande: 
+ git commit -am "mise à jour branche new"
+ l'option -am permet de faire le add et le commit à la volée. (attention ne marche pas avec un fichier
+ que l'on viendrait de créer. Seulement avec des fichiers qui ont déjà été indexés ou mergés). 
